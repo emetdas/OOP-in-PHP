@@ -13,4 +13,3 @@ $ifo->skill = "Java,Php";
 echo $ifo->info();
 
 ?>
-this is php file
