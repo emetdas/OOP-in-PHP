@@ -15,7 +15,7 @@ function sub(){
 }
 $sum = new emet(); // object
 
-$sum->a = 80;
+$sum->a = 30;
 $sum->b = 40;
 echo $sum->sum()."<br>"; 
 echo $sum->sub();
