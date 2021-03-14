@@ -1,5 +1,4 @@
 <?php
-
 class emet{ // class
 public $a,$b,$c; // propitis
 function sum(){ // method
