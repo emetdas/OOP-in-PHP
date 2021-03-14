@@ -31,7 +31,7 @@ class maneger extends employee{
      echo "Salary: " . $this->totalSalary . "<br>"; 
     }
 }
-$e1 = new employee("Emet Das",20,10000);
+$e1 = new employee("Ram Kumar",30,30000);
 $e1->info();
-$m1 = new maneger("Ram Kumar",30,30000);
+$m1 = new maneger("Emet Das",20,10000);
 $m1->info();
