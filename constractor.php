@@ -9,6 +9,8 @@ class emet{
         echo $this->name;
     }
 }
-$profile = new emet("Emet Das");
-$profile->show();
+$profile1 = new emet("Emet Das <br>");
+$profile1->show();
+$profile2 = new emet("Plaban Das");
+$profile2->show();
 ?>
