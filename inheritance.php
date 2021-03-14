@@ -12,10 +12,26 @@ class employee
     }
     function info()
     {
+        echo "<h3>Employee Info</h3>";
         echo "Name: " . $this->name . "<br>";
         echo "Age: " . $this->age . "<br>";
         echo "Salary: " . $this->salary . "<br>";
     }
 }
-$e1 = new employee("Emet", 20, 10000);
+class maneger extends employee{
+    public $ta =1000;
+    public $phone =300;
+    public $totalSalary;
+    function info()
+    {
+     $this->totalSalary = $this->salary + $this->ta + $this->phone;  
+     echo "<h3>Maneger Info</h3>";
+     echo "Name: " . $this->name . "<br>";
+     echo "Age: " . $this->age . "<br>";
+     echo "Salary: " . $this->totalSalary . "<br>"; 
+    }
+}
+$e1 = new employee("Emet Das",20,10000);
 $e1->info();
+$m1 = new maneger("Ram Kumar",30,30000);
+$m1->info();
