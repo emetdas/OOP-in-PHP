@@ -8,7 +8,7 @@ class emet{
     }
 }
 $ifo = new emet();
-$ifo->name = "Emet<br>";
+$ifo->name = "Emet Das<br>";
 $ifo->skill = "Java,Php";
 echo $ifo->info();
 
